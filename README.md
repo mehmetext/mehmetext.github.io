@@ -1,1 +1,0 @@
-# mehmetext.github.io
