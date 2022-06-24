@@ -260,6 +260,25 @@ a.group__references__item__detailsBtn i {
 	align-items: center;
 }
 
+.coming-anim {
+	transform: scale(0, 0);
+	animation: coming_anim 0.6s forwards;
+}
+
+@keyframes coming_anim {
+	0% {
+		transform: scale(0, 0);
+	}
+
+	50% {
+		transform: scale(1.1, 1.1);
+	}
+
+	100% {
+		transform: scale(1, 1);
+	}
+}
+
 @media (min-width: 768px) {
 	.first {
 		height: calc(100vh - 3rem) !important;
@@ -288,25 +307,6 @@ a.group__references__item__detailsBtn i {
 
 	.me__container {
 		width: auto;
-	}
-
-	.coming-anim {
-		transform: scale(0, 0);
-		animation: coming_anim 0.6s forwards;
-	}
-
-	@keyframes coming_anim {
-		0% {
-			transform: scale(0,0);
-		}
-
-		50% {
-			transform: scale(1.1,1.1);
-		}
-
-		100% {
-			transform: scale(1,1);
-		}
 	}
 
 	a.social__container {
