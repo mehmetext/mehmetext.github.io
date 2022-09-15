@@ -37,28 +37,24 @@ const myExperiences = [
 		experienceGroupName: "Website Geliştirici",
 		experiences: [
 			{
-				name: "HTML",
-				rate: 90,
-			},
-			{
-				name: "CSS",
-				rate: 90,
-			},
-			{
-				name: "PHP",
-				rate: 40,
-			},
-			{
-				name: "JAVASCRIPT",
+				name: "LARAVEL (RESTFUL API)",
 				rate: 50,
 			},
 			{
-				name: "JQUERY",
-				rate: 60,
+				name: "JAVASCRIPT",
+				rate: 70,
 			},
 			{
-				name: "BOOSTRAP",
-				rate: 20,
+				name: "REACT",
+				rate: 65,
+			},
+			{
+				name: "REDUX",
+				rate: 65,
+			},
+			{
+				name: "TAILWIND.CSS",
+				rate: 70,
 			},
 		],
 	},
@@ -220,9 +216,7 @@ myExperiences.forEach((experienceGroup, index) => {
 								</div>
 								<div class="experience-group__experiences__item__line">
 									<div class="experience-group__experiences__item__line__percent" style="width: ${
-										experience.rate > 100
-											? 100
-											: experience.rate
+										experience.rate > 100 ? 100 : experience.rate
 									}%"></div>
 								</div>
 							</div>`;
